@@ -2,7 +2,7 @@
 # Author: Jon Blanchard
 
 This program simulates packing squares. It was inspired by a reddit post
-about the weird way 17 squares of equal size are optimally packed.
+about the weird way squares of equal size are optimally packed.
 
 So I made this program to test various square packings. It displays a boundary
 surrounding the outermost edge of the squares. It also shows the area of the
