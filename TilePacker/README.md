@@ -1,18 +1,17 @@
-## Getting Started
+# TilePacker
+# Author: Jon Blanchard
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This program simulates packing squares. It was inspired by a reddit post
+about the weird way 17 squares of equal size are optimally packed.
 
-## Folder Structure
+So I made this program to test various square packings. It displays a boundary
+surrounding the outermost edge of the squares. It also shows the area of the
+bondary box, which is used to test for optimal packing density.
 
-The workspace contains two folders by default, where:
+There are buttons to add or remove squares.
+Squares can be dragged around the screen.
+Squares can be rotated using the small black box next to them.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+[See paper for inspiration](https://www.combinatorics.org/files/Surveys/ds7/ds7v5-2009/ds7-2009.html)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![Image](https://i.ibb.co/fqvgGz0/Screenshot-2023-04-27-040748.png)
